@@ -1,6 +1,6 @@
 FROM node:14-alpine
 WORKDIR /app
-COPY Task1.js package*.json ./
+COPY index1.js package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000

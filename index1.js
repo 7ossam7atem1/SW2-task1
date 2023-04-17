@@ -41,6 +41,7 @@ application.get('/students', (req, res) => {
     }
     output += '</ul>'
     res.send(output)
+    console.log("Hossam Hatem Ragap")
 })
 
 application.listen(3000)
